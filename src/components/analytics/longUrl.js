@@ -1,23 +1,22 @@
 import { Box, Card, CardContent, Grid } from "@mui/material";
-// import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-// import PeopleIcon from "@mui/icons-material/PeopleOutlined";
 
-export const CampaignName = (props) => (
+export const LongUrl = (props) => (
   <Card sx={{ height: "100%", width: "100opx" }} {...props}>
     <CardContent>
       <Grid container spacing={3} sx={{ justifyContent: "space-between" }}>
         <Grid item>
           <label>
-            <b>Campaign Name :</b>
+            <b>Long URL :</b>
           </label>
           <input
             type="text"
             class="form-control rounded"
-            defaultValue="Chapa Tharushi"
+            defaultValue="https://www.figma.com/proto/0GGHsTdsTEtHApWg2aQVpy/ITRA-UI?node-id=68%3A30&scaling=min-zoom&page-id=0%3A1"
             style={{
               backgroundColor: "transparent",
-              color: "#D3D3D3",
+              color: "gray",
               display: "inline",
+              width: "1025px",
             }}
           />
         </Grid>
